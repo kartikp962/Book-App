@@ -1,0 +1,53 @@
+.book {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.book>img {
+    width: 125px;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px solid black; */
+}
+
+.book-content input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.book-content button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.book-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-footer button {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.book-footer>img {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}

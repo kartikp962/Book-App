@@ -1,0 +1,12 @@
+.add-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+
+.add-book img {
+    width: 60px;
+    cursor: pointer;
+}
